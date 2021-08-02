@@ -75,7 +75,6 @@ export default {
     },
     _getRecommend () {
       getRecommend().then(res => {
-        console.log(res)
         this.recommends = res
       })
     },
@@ -84,9 +83,6 @@ export default {
         this.discList = res
       })
     },
-    ...mapMutations({
-      setDisc: 'SET_DISC'
-    })
   },
   components: {
     Slider,
