@@ -1,7 +1,8 @@
 <template>
   <div>
-    <Heador/>
-    <Navbar/>
+    <Islider/>
+    <Service/>
+    <Welfare/>
   </div>
 </template>
 
@@ -10,11 +11,16 @@
   import Navbar from "@/components/public/navbar.vue"
   import Footer from "@/components/public/footer.vue"
 
+  import Islider from "./islider.vue"
+  import Service from "./service.vue"
+  import Welfare from "./welfare.vue"
+
 
   export default {
     components: {
-      Heador,
-      Navbar
+      Islider,
+      Service,
+      Welfare
     }
   }
 </script>
