@@ -40,7 +40,7 @@
       font-size: 28px;
       height: 30px;
       line-height: 30px;
-      margin: 17px 0 0 18px;
+      margin: 17px 0 0 20px;
     }
     .btnDownload{
       float: right;

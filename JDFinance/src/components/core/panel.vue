@@ -16,7 +16,7 @@
         type: String,
         default: ""
       }
-    }
+    },
     data() {
       return {
         panelClass: "panel"
@@ -26,7 +26,7 @@
 </script>
 
 <style lang="scss">
-  @import "@/style/element.scss"
+  @import "../../style/element.scss";
   .panel {
     @include panel;
   }

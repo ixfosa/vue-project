@@ -9,7 +9,6 @@
         </router-link>
       </div>
     </section>
-
   </article>
 </template>
 
@@ -21,7 +20,6 @@
     },
     data() {
       return {
-        // cname: "slider",
         itmes: [
           {
             href: "home",
@@ -71,7 +69,8 @@
   @import '../../style/element.scss';
     .slider{
       margin-top: 100px;
-      img{
+      margin-bottom: 10px;
+      img {
         width: 100%;
       }
     }
