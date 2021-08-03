@@ -1,15 +1,33 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Index from "@/components/home/index.vue"
+import Home from "@/components/home/index.vue"
+import Money from "@/components/money/index.vue"
+import Ious from "@/components/ious/index.vue"
+import Raise from "@/components/raise/index.vue"
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
-      path: '/home',
+      path: '/',
       name: 'home',
-      components: Index
-    }
+      component: Home
+    },
+    {
+      path: '/money',
+      name: 'money',
+      component: Money
+    },
+    {
+      path: '/ious',
+      name: 'ious',
+      component: Ious
+    },
+    {
+      path: '/raise',
+      name: 'raise',
+      component: Raise
+    },
   ]
 })

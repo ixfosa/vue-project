@@ -1,16 +1,17 @@
 <template>
-  <div id="app">
-    <Heador></Heador>
-    <router-view></router-view>
-    <Navbar></Navbar>
+  <div>
+    <Heador/>
+    <Navbar/>
   </div>
 </template>
 
 <script>
   import Heador from "@/components/public/header.vue"
   import Navbar from "@/components/public/navbar.vue"
+  import Footer from "@/components/public/footer.vue"
+
+
   export default {
-    name: 'App',
     components: {
       Heador,
       Navbar
@@ -18,7 +19,5 @@
   }
 </script>
 
-
-<style lang="scss">
-  @import "style/reset.scss";
+<style>
 </style>
