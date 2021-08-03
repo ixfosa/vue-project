@@ -47,7 +47,7 @@
 <style lang="scss" module>
   @import "../../style/element.scss";
   .panel{
-    @include panel($margin:0px);
+    @include panel;
     padding-bottom: 10px;
     position: fixed;
     left:0;

@@ -1,18 +1,30 @@
 <template>
   <div>
-    <Heador/>
-    <Navbar/>
+    <Mslider/>
+    <Ada/>
+    <Money/>
+    <Adb/>
+    <Finance/>
+    <Adc/>
   </div>
 </template>
 
 <script>
-  import Heador from "@/components/public/header.vue"
-  import Navbar from "@/components/public/navbar.vue"
-  import Footer from "@/components/public/footer.vue"
+  import Mslider from "./mslider.vue"
+  import Ada from "./ada.vue"
+  import Money from "./money.vue"
+  import Adb from "./adb.vue"
+  import Finance from "./finance.vue"
+  import Adc from "./adc.vue"
+
   export default {
     components: {
-      Heador,
-      Navbar
+      Mslider,
+      Ada,
+      Money,
+      Adb,
+      Finance,
+      Adc
     }
   }
 </script>

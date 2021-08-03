@@ -6,12 +6,10 @@
     <Money/>
     <Product/>
     <Life/>
-    <Footer/>
   </div>
 </template>
 
 <script>
-  import Footer from "@/components/public/footer.vue"
   import Hslider from "./hslider.vue"
   import Novice from "./novice.vue"
   import Borrow from "./borrow.vue"
@@ -27,7 +25,6 @@
       Money,
       Product,
       Life,
-      Footer,
     }
   }
 </script>

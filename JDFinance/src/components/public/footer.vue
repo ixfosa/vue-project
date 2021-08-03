@@ -55,7 +55,6 @@
       li{
         width: 100%;
         text-align: center;
-        padding-top: 8px;
         color: #999;
         font-size: 24px;
         >img{

@@ -67,34 +67,34 @@
 </script>
 <style lang="scss" module>
   @import '../../style/element.scss';
-    .slider{
-      margin-top: 100px;
-      margin-bottom: 13px;
-      img {
-        width: 100%;
+  .slider{
+    margin-top: 100px;
+    margin-bottom: 13px;
+    img {
+      width: 100%;
+    }
+  }
+  .list{
+    @include list(row);
+    background: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-around;
+    a{
+      text-decoration: none;
+    }
+    .item{
+      text-align: center;
+      img{
+        display: inline-block;
+        width: 90px;
+        height: 90px;
+      }
+      h4{
+        font-size: 26px;
+        margin-top: 12px;
+        color: #666;
       }
     }
-    .list{
-      @include list(row);
-      background: #fff;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      justify-content: space-around;
-      a{
-        text-decoration: none;
-      }
-      .item{
-        text-align: center;
-        img{
-          display: inline-block;
-          width: 90px;
-          height: 90px;
-        }
-        h4{
-          font-size: 26px;
-          margin-top: 12px;
-          color: #666;
-        }
-      }
-    }
+  }
 </style>
