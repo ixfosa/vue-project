@@ -1,5 +1,5 @@
 <template>
-  <panel title="新手特权" :class="$style.panel"">
+  <Panel title="新手特权" :class="$style.panel">
     <section :class="$style.content">
       <div :class="$style.item">
         <h4>下载APP<span :class="$style.red">送888元礼包</span></h4>
@@ -21,15 +21,15 @@
         </ul>
       </div>
     </section>
-  </panel>
+  </Panel>
 </template>
 
 <script>
-  import panel from "@/components/core/panel.vue"
+  import Panel from "@/components/core/panel.vue"
 
   export default {
     components: {
-      panel
+      Panel
     }
   }
 </script>

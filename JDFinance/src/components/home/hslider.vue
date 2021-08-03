@@ -69,7 +69,7 @@
   @import '../../style/element.scss';
     .slider{
       margin-top: 100px;
-      margin-bottom: 10px;
+      margin-bottom: 13px;
       img {
         width: 100%;
       }

@@ -3,20 +3,19 @@
     <span :class="$style.left">
       <em>注册</em>&ensp;|&nbsp;<em>登陆</em>
     </span>
-    <btn :class="$style.btnDownload" @click.native="goToGithub">APP下载</btn>
+    <Btn :class="$style.btnDownload" @click.native="goToGithub">APP下载</Btn>
   </div>
 </template>
 
 <script>
-  import btn from "@/components/core/btn.vue"
+  import Btn from "@/components/core/btn.vue"
 
   export default {
     components: {
-      btn
+      Btn
     },
     methods: {
       goToGithub() {
-        console.log("dfsf")
         location.href = 'https://github.com/ixfosa';
       }
     }
