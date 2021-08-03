@@ -48,7 +48,7 @@
   @import "../../style/element.scss";
   .panel{
     @include panel;
-    padding-bottom: 10px;
+    // padding-bottom: 10px;
     position: fixed;
     left:0;
     right: 0;
