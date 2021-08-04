@@ -64,13 +64,13 @@
     .content {
       @include flex(row);
       .item {
-        width: 160px;
+        // width: 160px;
+        width: 25%;
         height: 144px;
         text-align: center;
         margin-bottom: 40px;
         img {
-          width: 90px;
-          height: 90px;
+          height: 60%;
         }
         p {
           font-size: 26px;
